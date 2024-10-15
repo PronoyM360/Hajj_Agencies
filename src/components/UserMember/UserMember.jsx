@@ -12,7 +12,7 @@ const UserMember = () => {
   const [page, setPage] = useState(1);
   const limit = 15;
   const apiUrl =
-    "http://192.168.0.181:8000/api/atab/user-member/get/all/by/date/zone/status/for-admin";
+    "https://haab.services/api/atab/user-member/get/all/by/date/zone/status/for-admin";
   const imgUrl = "https://m360ict.s3.ap-south-1.amazonaws.com/haab-storage";
 
   const fetchData = async (search = "", skip = 0) => {
